@@ -228,14 +228,12 @@ The current implementation intentionally keeps the scope focused on the required
 - The API keeps the latest run in memory only; it does not persist results to disk or a database.
 - The API does not implement authentication or user management.
 - The output is not written to disk by default; CSV export happens only when an explicit output path is passed to the processor.
-- No NumPy or Matplotlib has been added.
 - The project does not yet include a formal README-based deployment or container setup.
 
 ### Optional features not implemented here
 
 - persistent storage for pipeline results
 - background job execution for ingest runs
-- dashboards or charts
 - richer error reporting or reject-file export
 
 ## 9. AI tools used and how they were used
